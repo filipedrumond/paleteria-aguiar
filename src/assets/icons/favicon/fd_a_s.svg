@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78.57 84.98">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-3 {
+        fill: #ffe031;
+      }
+    </style>
+  </defs>
+  <title>icon_alter</title>
+  <g class="cls-1">
+    <g id="Camada_1" data-name="Camada 1">
+      <g>
+        <g class="cls-2">
+          <path d="M69.56,43.81,69.28,31H36v84H52V80.6H64V65.4H52V46.21h2.4V59C63.67,50.23,63.67,50.23,69.56,43.81Z" transform="translate(-34.97 -30.01)"/>
+          <path d="M113.53,47.81v-6.3l-10-10.35L98.33,31H73.53v15.2h7.2L73.53,60.6V115h28.85l11.15-11V47.81Zm-15.2,3.63V94.62l-1.2,1.28-2,1.93H89.53V49.35l8.8.08Z" transform="translate(-34.97 -30.01)"/>
+        </g>
+        <g>
+          <path class="cls-3" d="M68.56,42.81,68.28,30H35v84H51V79.6H63V64.4H51V45.21h2.4V58C62.67,49.23,62.67,49.23,68.56,42.81Z" transform="translate(-34.97 -30.01)"/>
+          <path class="cls-3" d="M112.53,46.81v-6.3l-10-10.35L97.33,30H72.53v15.2h7.2L72.53,59.6V114h28.85l11.15-11V46.81Zm-15.2,3.63V93.62l-1.2,1.28-2,1.93H88.53V48.35l8.8.08Z" transform="translate(-34.97 -30.01)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

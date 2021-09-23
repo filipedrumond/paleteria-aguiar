@@ -1,0 +1,43 @@
+.c-modal {
+    transition: display 50ms, visibility 50ms, opacity 50ms linear;
+    display: none;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+
+    &.modal-open {
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+
+        width: 100vw;
+        height: 100vh;
+
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: 99;
+
+        background-color: rgba($color: #000000, $alpha: 0.9);
+        justify-content: center;
+        align-items: center;
+    }
+    .content {
+        position: relative;
+        .close {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            top: 0.3rem;
+            right: 0.3rem;
+            width: 2rem;
+            height: 2rem;
+        }
+        width: 90%;
+        height: 90%;
+        background-color: white;
+    }
+}

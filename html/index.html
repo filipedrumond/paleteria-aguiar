@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifolio by Filipe</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="/build/css/main.css" />
+    <link rel="shortcut icon" href="assets/icons/favicon/fd_a.min.svg" sizes="any" type="image/svg+xml" />
+  </head>
+
+  <body>
+    <div id="vue-app"></div>
+    <script async src="/build/js/main.js"></script>
+    <script>
+      if (window.location.origin == "http://localhost") {
+        document.write(
+          '<script src="http://' +
+            (location.host || "localhost").split(":")[0] +
+            ':35729/livereload.js?snipver=1"></' +
+            "script>"
+        );
+      }
+    </script>
+  </body>
+</html>

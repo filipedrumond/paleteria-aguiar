@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+    font-family: "Roboto", sans-serif;
+    color: $black;
+    font-weight: 500;
+}
+h1 {
+    color: $primary;
+    text-transform: uppercase;
+    letter-spacing: 0.08rem;
+}
+h2,
+h3,
+h4,
+h5 {
+    color: $secondary;
+}
+a.link-primary {
+    color: $primary;
+    &:hover,
+    &:active {
+        color: darken($primary, 20);
+    }
+}
+.text-danger {
+    color: $danger !important;
+}

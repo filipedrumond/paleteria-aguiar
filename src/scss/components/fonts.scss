@@ -1,0 +1,25 @@
+@font-face { 
+    font-family: 'HighJersey';
+    src: 
+        url('../../assets/fonts/High_Jersey/High Jersey.woff2') format('woff2'),
+        url('../../assets/fonts/High_Jersey/High Jersey.woff') format('woff'),
+        url('../../assets/fonts/High_Jersey/High Jersey.ttf') format('truetype')
+    ;
+    font-weight: normal;
+    font-style: normal;
+}
+.font-hj {
+    font-family: 'HighJersey';
+}
+
+@font-face { 
+    font-family: 'BenguiatBold';
+    src: 
+        url('../../assets/fonts/Benguiat_Bold/benguiat-bold.otf') format('opentype')
+    ;
+    font-weight: normal;
+    font-style: normal;
+}
+.font-bb {
+    font-family: 'BenguiatBold';
+}

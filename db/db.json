@@ -1,0 +1,23 @@
+{
+    "posts": [
+        { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "comments": [
+        { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" },
+    "users": [
+        {
+            "id": "1234dasfd",
+            "user_name": "elune2k",
+            "senha": "4297f44b13955235245b2497399d7a93",
+            "email": "filipe.dp@outlook.com"
+        },
+        {
+            "id": "1543g123",
+            "user_name": "1",
+            "senha": "c81e728d9d4c2f636f067f89cc14862c",
+            "email": "1@.com"
+        }
+    ]
+}

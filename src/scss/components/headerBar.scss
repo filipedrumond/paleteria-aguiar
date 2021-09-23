@@ -1,0 +1,36 @@
+.c-headerBar{
+    background-color: $secondary;
+    h1{
+        font-size: 9rem;
+        text-shadow: 2px 2px 2px black;
+    }
+    .titulo{
+        position: relative;
+        .credits{
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+
+            color: $primary;
+            font-size: 1.2rem;
+            >span{
+                >div{
+                    @extend .font-bb;
+                    line-height: 1.1rem;
+                    &:last-of-type{
+                        font-size: 120%;
+                    }
+                }
+            }
+        }
+    }
+    @include media-breakpoint-down(md){
+        h1{
+            font-size: 5rem;
+        }
+        .titulo .credits {
+            position: initial;
+            padding-bottom: 1rem;
+        }
+    }
+}

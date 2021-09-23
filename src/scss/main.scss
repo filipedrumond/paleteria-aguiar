@@ -1,0 +1,28 @@
+$primary: #e5f230;
+$secondary: #54d863;
+$theme: 2;
+@import "normalize.scss";
+@import "variables.scss";
+@import "colors.scss";
+
+$fa-font-path: "../../../node_modules/font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+@import "bootstrap";
+
+@import "helpers/_";
+@import "~@filipedp/simple_dialog/scss/alerts";
+@import "~@filipedp/simple_dialog/scss/confirms";
+
+body {
+    @import "layouts/_";
+    @import "routes/_";
+    @import "components/typography";
+}
+
+@import "components/fonts";
+
+* {
+    margin: 0;
+    padding: 0;
+}

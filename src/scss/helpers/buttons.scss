@@ -1,0 +1,62 @@
+.btn {
+    border: none;
+    outline: none;
+    &:focus,
+    &:active,
+    &:hover {
+        border: none;
+        outline: none;
+    }
+    &:hover {
+        box-shadow: 2px 2px 3px $secondary;
+        cursor: pointer;
+    }
+
+    &.btn-primary {
+        background-color: $primary;
+        color: #fff;
+        // font-weight: 900;
+    }
+    &.btn-seconday {
+        background-color: $secondary;
+    }
+    padding: 0.5rem;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px $secondary;
+    letter-spacing: 0.1rem;
+}
+.floating-btn {
+    position: fixed;
+    top: 80vh;
+    right: 0;
+    width: 2rem;
+    height: 2rem;
+    background-color: $white;
+    z-index: 10;
+    padding: 0.5rem 0.7rem 0.5rem 1rem;
+    border-radius: 50px 0px 0px 50px;
+    box-shadow: $gray -1px 3px 5px;
+    button {
+        display: flex;
+        border: none;
+    }
+    .icone {
+        position: relative;
+        i {
+            margin-left: -0.5rem;
+            font-size: 1.2rem;
+            position: absolute;
+            z-index: 12;
+            color: darken($color: $secondary, $amount: 10);
+        }
+        i.shadow {
+            color: $gray;
+            margin-left: 2px;
+            margin-top: 2px;
+            z-index: 11;
+            &::before {
+                filter: blur(5px);
+            }
+        }
+    }
+}
